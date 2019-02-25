@@ -8,13 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="USA-road-d.CAL.gr.zip" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="USA-road-d.CAL.gr.zip">
+    <None Update="USA-road-d.CAL.gr.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </None>
   </ItemGroup>
 
 </Project>

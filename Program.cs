@@ -14,7 +14,7 @@ namespace linq_sync
 {
     static class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
             using (var archive = ZipFile.OpenRead(args[0]))
             {
